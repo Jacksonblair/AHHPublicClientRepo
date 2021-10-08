@@ -1,0 +1,57 @@
+.impacts-container {
+    margin: 20px 0px;
+}
+
+.impact-link {
+    width: 32.5%;
+    margin-bottom: 16px;
+}
+
+.impact-link-image {
+    width: 100%;
+    height: 216px;
+    margin-bottom: 16px;
+}
+
+.impact-link-image .image {
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.impact-link-content {
+    margin-bottom: 8px;
+}
+
+
+@media screen and (max-width: 499px) {
+    .impact-link {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+}
+
+
+.impact-sidebar-link {
+    width: -webkit-fill-available;
+    text-align: left;
+    padding: 8px;
+    display: flex;
+    text-decoration: none;
+    transition: 0.2s all;
+}
+
+.impact-sidebar-link div {
+    flex: 1;
+    border-bottom: 1px solid var(--blue);
+}
+
+.impact-sidebar-link:hover {
+    background: whitesmoke;
+}
+
+.impact-sidebar-link:first-child div {
+    border-bottom: 1px solid var(--black);
+}

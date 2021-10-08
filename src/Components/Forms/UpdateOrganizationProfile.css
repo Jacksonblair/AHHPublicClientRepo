@@ -1,0 +1,9 @@
+.update-org-ctr {
+	margin-top: 64px;
+}
+
+@media screen and (max-width: 499px) {
+	.update-org-ctr {
+		margin-top: 16px;
+	}
+}

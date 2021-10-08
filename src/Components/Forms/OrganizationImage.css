@@ -1,0 +1,48 @@
+.org-profile-image {
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+.org-profile-image-thumb-container {
+	position: relative;
+}
+
+.org-profile-image .edit-profile-image-button {
+	position: absolute;
+	top: 0px;
+	left: 164px;
+	background: none;
+	border: none;
+	padding: 4px;
+	font-size: 20px;
+	color: var(--black);
+}
+
+.org-profile-image .upload-image-button {
+	margin-bottom: 8px;
+}
+
+.upload-image-button input {
+	display: none;
+}
+
+.org-profile-image .thumb-2 {
+	margin-bottom: 8px;
+}
+
+.org-profile-image .submit {
+	margin-right: 16px;
+}
+
+.org-profile-image .updating {
+
+}
+
+@media screen and (max-width: 499px) {
+	.org-profile-image {
+		width: 100%;
+	}
+}

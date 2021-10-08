@@ -1,0 +1,17 @@
+.admin-buttons-top {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.admin-button {
+	background: lightgrey;
+    border: 1px solid grey;
+    padding: 4px 8px;
+    color: var(--black);
+    font-size: 14px;
+}
+
+.admin-button.active {
+	border-bottom: 5px solid var(--black);
+}

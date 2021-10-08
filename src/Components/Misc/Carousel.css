@@ -1,0 +1,30 @@
+.carousel-image {
+	width: 100%;
+	height: 250px;
+	background-color: darkgrey;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 500px) {
+	.carousel-image {
+		height: 500px;
+	}
+}
+
+.carousel {
+	position: relative;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 100px;
+}
+
+.carousel-button.left {
+	left: 10px;
+}
+.carousel-button.right {
+	right:  10px;
+}

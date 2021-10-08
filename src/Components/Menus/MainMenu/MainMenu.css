@@ -1,0 +1,44 @@
+.component-main-menu {
+    height: 72px;
+}
+
+.component-main-menu .mobile-ahhlogo {
+    height: 100%;
+    width: 76px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (min-width: 500px) {
+    .component-main-menu {
+        justify-content: center;
+    }
+
+    .component-main-menu .mobile-ahhlogo {
+        margin-right: auto;
+    }
+}
+
+.menu-agency-register {
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.menu-logout-button {
+    background: none;
+    border: none;
+    font-size: inherit;
+    font-weight: bold;
+    line-height: inherit;
+    text-decoration: underline;
+    padding: 0px 8px;
+    cursor: pointer;
+}
+
+.menu-profile-icon {
+    font-size: 32px;
+    padding: 0px 8px;
+}

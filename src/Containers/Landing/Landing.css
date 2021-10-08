@@ -1,0 +1,146 @@
+.container-landing {
+    height: 100%;
+}
+
+.landing-buttons {
+	flex-direction: column;
+}
+
+.landing-button {
+	color:  white;
+	height: 172px;
+	width: 172px;
+	border: 1px solid #00000000;
+	border-radius: 100%;
+	background: grey;
+	transition: 0.2s all;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 500px) {
+	.landing-buttons {
+		margin-top: -90px;
+		flex-direction: row;
+	}
+	.landing-button {
+		height: 180px;
+		width: 180px;
+		margin: 0px 16px;
+	}
+}
+
+@media screen and (max-width: 499px) {
+	.landing-button {
+		margin: 16px 0px;
+	}
+}
+
+.landing-button i {
+	transition: 0.2s all;
+}
+
+.landing-button:hover .text, .landing-button i:hover {
+	opacity: 0.5;
+}
+
+.landing-button .text {
+    width: 74%;
+    height: 75%;
+	transition: 0.2s all;
+}
+
+.landing-button:nth-child(1) {
+	background: #00C1D4;
+}
+.landing-button:nth-child(2) {
+	background: #93DA49;
+}
+.landing-button:nth-child(3) {
+	background: #FFCD00;
+}
+.landing-button:nth-child(4) {
+	background: #FF9425;
+}
+
+
+.landing-social-icon {
+	font-size: 40px;
+	color: white;
+}
+
+.pc-region-welcome-header {
+	height:504px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -48px;
+    background-color: Grey;
+}
+
+
+
+.landing-major-needs-bg {
+	height: 460px;
+    width: 326px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 16px;
+}
+
+.landing-major-needs-header {
+    margin: 0px 20px;
+	margin-top: 56px;
+}
+
+.landing-major-needs {
+	display: flex;
+	flex: 1;
+	margin: 0px 24px;
+}
+
+.landing-major-need {
+	margin: 8px 0px;
+}
+
+.landing-major-needs-footer {
+	margin-bottom: 36px;
+}
+
+
+
+.facebook-feed {
+    margin-left: 16px;
+    position: relative;
+}
+
+.facebook-bubble {
+    height: 150px;
+    width: 242px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 272px;
+    top: -53px;
+    padding: 32px;
+    box-sizing: border-box;
+    display: flex !important;
+}
+
+
+@media screen and (max-width: 499px) {
+	.facebook-feed {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: auto;
+		margin: 0;
+	}
+}
+
+.please-select-header {
+	font-size: 20px;
+}

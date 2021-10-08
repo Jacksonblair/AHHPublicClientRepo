@@ -1,0 +1,40 @@
+
+.org-profile-about {
+	position: relative;
+    white-space: pre-line;
+}
+
+.edit-profile-image-field-button {
+	width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    right: -30px;
+    transition: 0.2s all;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.edit-profile-about-field-button {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transition: 0.2s all;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+
+.profile-field {
+    margin-bottom: 32px;
+}
+
+
+
+.mobile-profile-buttons .btn {
+    margin-top: 16px;
+}
