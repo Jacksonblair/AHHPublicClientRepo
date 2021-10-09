@@ -71,7 +71,7 @@ let Region = props => {
 						to="/landing/warrnambool" 
 						style={{"backgroundImage":`url(${warrnamboolIcon})`}} 
 						className="region-button"/>
-						<div className="header-3"> Warrnambool </div>
+						<h2 className="header-3"> Warrnambool </h2>
 					</div>
 			
 					<div className="display-flex align-items-center flex-column">
@@ -79,7 +79,7 @@ let Region = props => {
 						to="/landing/corangamite" 
 						style={{"backgroundImage":`url(${corangamiteIcon})`}} 
 						className="region-button"/>
-						<div className="header-3"> Corangamite Shire </div>
+						<h2 className="header-3"> Corangamite Shire </h2>
 					</div>
 
 					<div className="display-flex align-items-center flex-column">
@@ -87,15 +87,15 @@ let Region = props => {
 						to="/landing/geelong" 
 						style={{"backgroundImage":`url(${geelongIcon})`}} 
 						className="region-button"/>
-						<div className="header-3"> Geelong </div>
+						<h2 className="header-3"> Geelong </h2>
 					</div>
 
 				</div>
 			</div>
-
 			<br/>
+			<article>
 
-				<div className="ctr-5 display-flex align-items-center justify-center">
+				<section className="ctr-5 display-flex align-items-center justify-center">
 					{ width >= 500 && 
 						<img className="region-circle-image" style={{"borderRadius":"0px"}}src={logoWithValues}/>
 					}
@@ -112,47 +112,45 @@ let Region = props => {
 							</div>
 						</ResourceWrapper>
 					</div>
-				</div> 
+				</section> 
 
-			<br className="desktop-only"/>
+				<br className="desktop-only"/>
 
-			{ width >= 500 && 
-				<>
-				<div className="ctr-5 display-flex align-items-center justify-center">
-					<img className="region-circle-image" src={landingImage1}/>
-					<div style={{"width":"400px"}} className="header-4">
-						<div> Connecting 
-							<div className="orange inline"> locals </div> 
-							in need with
-							<div className="orange inline"> locals </div>
-							who are able to lend a helping hand.
+				{ width >= 500 && 
+					<section className="ctr-5 display-flex align-items-center justify-center">
+						<img className="region-circle-image" src={landingImage1}/>
+						<div style={{"width":"400px"}} className="header-4">
+							<div> Connecting 
+								<div className="orange inline"> locals </div> 
+								in need with
+								<div className="orange inline"> locals </div>
+								who are able to lend a helping hand.
+							</div>
 						</div>
-					</div>
-					<img className="region-circle-image" src={landingImage3}/>
-				</div> 
-				</>
-			}
-
-			<br className="desktop-only"/>
-
-			<div className="ctr-5 display-flex align-items-center justify-center">
-				{ width < 500 && 
-					<div className="italic bold black">
-						<div> "All the money in the world does not change lives. <div className="orange inline">People</div> change lives." <br/> </div>
-						<div>- Elise Mckinnon</div>
-					</div>
+						<img className="region-circle-image" src={landingImage3}/>
+					</section> 
 				}
-				{ width >= 500 && <>
-					<div className="header-4">
-						<div> "All the money in the world does not change lives. <br/><div className="orange inline">People</div> change lives." <br/> </div>
-					</div>
-					<img className="region-circle-image" src={landingImage2}/>
-					</>
-				}
-			</div>
 
-			<br className="desktop-only"/>
-			 
+				<br className="desktop-only"/>
+
+				<div className="ctr-5 display-flex align-items-center justify-center">
+					{ width < 500 && 
+						<section className="italic bold black">
+							<div> "All the money in the world does not change lives. <div className="orange inline">People</div> change lives." <br/> </div>
+							<div>- Elise Mckinnon</div>
+						</section>
+					}
+					{ width >= 500 && <>
+						<section className="header-4">
+							<div> "All the money in the world does not change lives. <br/><div className="orange inline">People</div> change lives." <br/> </div>
+						</section>
+						<img className="region-circle-image" src={landingImage2}/>
+						</>
+					}
+				</div>
+
+				<br className="desktop-only"/>
+			</article>
 		</>
 	)			
 

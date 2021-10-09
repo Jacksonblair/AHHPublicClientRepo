@@ -167,7 +167,7 @@ const MainMenu = props => {
 
 	return (
 		<div className="main-column"> 
-			<div className="component-main-menu display-flex justify-space-between align-items-center">
+			<nav className="component-main-menu display-flex justify-space-between align-items-center">
 				{/* Mobile menu */}
 				{ width < 500 && <>
 					<MobileDropdown menu={mobileMenu1} icon={<i className="fas fa-bars"></i>}/>
@@ -212,7 +212,7 @@ const MainMenu = props => {
 					</>
 				}
 
-			</div>
+			</nav>
 		</div>	
 	)
 }

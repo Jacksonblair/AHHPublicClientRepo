@@ -115,19 +115,19 @@ function Landing(props) {
  					<Link 
  					to={props.doesSessionExist ? `/org/${props.userId}/needs/add` : "/registering"}
  					className="landing-button display-flex justify-center align-items-center"> 
- 						<div className="white text display-flex align-items-center justify-center small-text-shadow">
+ 						<h2 className="white text display-flex align-items-center justify-center small-text-shadow">
 							I am an educational or community organisation who wants to REGISTER A NEED
-						</div>
+						</h2>
  					</Link>
  					<Link to={`/current-needs/${region}`} className="landing-button display-flex justify-center align-items-center"> 
- 						<div className="white text display-flex align-items-center justify-center small-text-shadow">
+ 						<h2 className="white text display-flex align-items-center justify-center small-text-shadow">
 							I am an individual or business who would like to FULFIL A NEED
-						</div>
+						</h2>
  					</Link>
  					<Link to="/need-help" className="landing-button display-flex justify-center align-items-center"> 
- 						<div className="white text display-flex align-items-center justify-center small-text-shadow">
+ 						<h2 className="white text display-flex align-items-center justify-center small-text-shadow">
 							Do you need help? 
-						</div>
+						</h2>
  					</Link>
  					<div className="landing-button display-flex justify-center align-items-center"> 
  						<div className="display-flex align-items-center justify-center small-text-shadow">
@@ -154,9 +154,9 @@ function Landing(props) {
 							getResource={getMajorNeeds} 
 							error={majorNeedsError}>
 								<div className="landing-major-needs-bg display-flex flex-column" style={{"backgroundImage":`url(${majorNeedsBg})`}}>
-									<div className="landing-major-needs-header landing header-3 capitalize"> 
+									<h2 className="landing-major-needs-header landing header-3 capitalize"> 
 										{regions[region]} Community <br/> Major Needs 
-									</div>
+									</h2>
 									<div className="landing-major-needs display-flex justify-center align-items-center flex-column">
 										{ majorNeeds.length ? 
 											majorNeeds.map((need) => {

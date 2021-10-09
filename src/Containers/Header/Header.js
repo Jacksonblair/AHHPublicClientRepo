@@ -19,13 +19,13 @@ function Header(props) {
 	}
 
 	return(
-		<div className="container-header display-flex justify-center">
+		<header className="container-header display-flex justify-center">
 			<MainMenu 
 			session={props.doesSessionExist} 
 			jwt={props.jwtPayload} 
 			id={props.userId}
 			logout={clickedLogout}/>
-		</div>
+		</header>
 	)
 
 }

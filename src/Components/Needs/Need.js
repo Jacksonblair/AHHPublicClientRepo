@@ -43,9 +43,9 @@ const Need = props => {
 
 	return (
 		<div className="display-flex flex-column ctr-7">
-			<div className="header-2 capitalize desktop-only"> {props.need.name} </div>
+			<h1 className="header-2 capitalize desktop-only"> {props.need.name} </h1>
 			<br className="desktop-only"/>
-			<div className="header-2 capitalize mobile-only text-center"> {props.need.name} </div>
+			<h1 className="header-2 capitalize mobile-only text-center"> {props.need.name} </h1>
 			<div className={`ctr-2 ${props.need.category} text-left`}>
 				{ !props.need.fulfilled || props.need.fulfilled != "false" && 
 					<div className="blue text-center header-3"> 

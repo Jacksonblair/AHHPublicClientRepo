@@ -8,7 +8,7 @@ let Footer = props => {
 	let history = useHistory()
 
 	return(
-		<div className="container-footer">  
+		<footer className="container-footer">  
 
 			<div className="footer-cta main-column italic">
 				We respectfully acknowledge the Traditional Custodians of the land where we live, work and learn. We pay our respects to all Aboriginal Community Elders and people past and present. We thank them for taking care of our country over countless generations.
@@ -38,7 +38,7 @@ let Footer = props => {
 				</div>
 			</div>
 
-		</div>
+		</footer>
 	)
 
 }

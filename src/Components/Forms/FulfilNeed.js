@@ -72,7 +72,7 @@ return (
 						</button>
 					</div>
 				}>
-					<div className={`header-2 ${props.need.region} capitalize ${width < 500 ? "text-center" : "text-left"}`}> Fulfil Need </div>
+					<h1 className={`header-2 ${props.need.region} capitalize ${width < 500 ? "text-center" : "text-left"}`}> Fulfil Need </h1>
 					<br/>
 					<div className="bold text-left"> To Agency:
 						<div className="medium"> {props.need.organization_name} </div>
