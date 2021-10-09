@@ -45,6 +45,7 @@
     padding: 0 16px 8px;
     width: 100%;
     box-sizing: border-box;
+    flex-direction: column;
 }
 
 .facebook-post .story {

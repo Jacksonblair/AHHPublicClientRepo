@@ -174,7 +174,7 @@ const FacebookPost = props => {
 				}
 
 				{ props.post.message && 
-					<div className="message display-flex">
+					<div className="message">
 						{props.post.message && <> {props.post.message} </>}
 					</div>
 				}
