@@ -8,8 +8,8 @@
 
 .landing-button {
 	color:  white;
-	height: 172px;
-	width: 172px;
+	height: 220px;
+	width: 220px;
 	border: 1px solid #00000000;
 	border-radius: 100%;
 	background: grey;
@@ -24,8 +24,6 @@
 		flex-direction: row;
 	}
 	.landing-button {
-		height: 180px;
-		width: 180px;
 		margin: 0px 16px;
 	}
 }
@@ -45,9 +43,19 @@
 }
 
 .landing-button .text {
+	color: #ffffffc4;
     width: 74%;
     height: 75%;
 	transition: 0.2s all;
+	font-size: 22px;
+    line-height: 22px;
+	display: flex;
+	flex-direction: column;
+}
+
+.landing-button .subject-text {
+	font-size: 26px;
+	line-height: 26px;
 }
 
 .landing-button:nth-child(1) {
@@ -65,7 +73,7 @@
 
 
 .landing-social-icon {
-	font-size: 40px;
+	font-size: 56px;
 	color: white;
 }
 
