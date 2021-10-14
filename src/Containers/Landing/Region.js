@@ -45,14 +45,11 @@ let Region = props => {
 			<div className="display-flex flex-column align-items-center">
 
 				<div className="display-flex desktop-only">
-					<h1 className="header-2 blue inline"> Give someone local
-						<div className="header-2 blue uppercase inline">&nbsp;A Helping Hand </div>  
-					</h1>  
+					<h1 className="header-2 blue inline"> Can you help a local person in need? </h1>
 				</div>				
 
 				<div className="display-flex mobile-only">
-					<div className="header-2 blue"> Give someone local</div>  
-					<div className="header-2 blue uppercase">&nbsp;A Helping Hand </div>  
+					<div className="header-2 blue">Can you help a local person in need?</div>  
 				</div>
 
 				<br/>

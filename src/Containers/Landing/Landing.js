@@ -116,17 +116,17 @@ function Landing(props) {
  					to={props.doesSessionExist ? `/org/${props.userId}/needs/add` : "/registering"}
  					className="landing-button display-flex justify-center align-items-center"> 
  						<h2 className="white text display-flex align-items-center justify-center small-text-shadow">
-							I am an educational or community organisation who wants to
+							I am await community organisation who wants to
 							<div className="subject-text white">
-								REGISTER A NEED
+								REGISTER A LOCAL NEED
 							</div>
 						</h2>
  					</Link>
  					<Link to={`/current-needs/${region}`} className="landing-button display-flex justify-center align-items-center"> 
  						<h2 className="text display-flex align-items-center justify-center small-text-shadow">
-							I am an individual or business who would like to 
+							I would like to 
 							<div className="subject-text white">
-								FULFIL A NEED
+								HELP SOMEONE LOCAL
 							</div>
 						</h2>
  					</Link>
