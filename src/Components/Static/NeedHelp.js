@@ -36,7 +36,7 @@ let NeedHelp = props => {
 				<div className="ctr-2 bold">
 					If you or your family need an extra helping hand, please reach out and ask for help.
 					<br/><br/>
-					All schools, healthcare or community organisations in the Corangamite Shire, Geelong, and Warrnambool can register your needs.
+					All schools, healthcare or community organisations in the Corangamite Shire, Colac, and Warrnambool can register your needs.
 					<br/><br/>
 					Please be assured that maintaining the privacy of people is of paramount importance, and A Helping Hand will not receive names or identifying details of any person they hope to help through our local agencies.
 					<br/><br/>

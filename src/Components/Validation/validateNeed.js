@@ -2,13 +2,6 @@ export default function validateNeed(values) {
 
 	let errors = {}
 
-	// let INITIAL_STATE = {
-	// 	name: "",
-	// 	details: "",
-	// 	region: "geelong",
-	// 	requirements: ""
-	// }
-
 	if (!values.name) {
 		errors.name = "Name for need required"
 	} else if (values.name.length >= 35) {
@@ -21,7 +14,7 @@ export default function validateNeed(values) {
 
 	if (!values.region) {
 		errors.region = "Region required"
-	} else if (!["geelong", "corangamite", "warrnambool"].includes(values.region.toLowerCase())) {
+	} else if (!["colac", "corangamite", "warrnambool"].includes(values.region.toLowerCase())) {
 		errors.region = "Invalid region"
 	}
 

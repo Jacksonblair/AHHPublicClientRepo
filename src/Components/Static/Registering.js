@@ -20,7 +20,7 @@ function Registering(props) {
 				</div>
 				<br/>
 				<div className="ctr-6">
-					<div className="header-3 blue"> Agencies can only be within the Corangamite Shire, Geelong and Warrnambool in Victoria: </div> 
+					<div className="header-3 blue"> Agencies can only be within the Corangamite Shire, Colac and Warrnambool in Victoria: </div> 
 					<br/>
 					<div className="medium">
 						We hope to reach more communities very soon.

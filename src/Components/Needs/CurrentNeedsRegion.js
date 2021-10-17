@@ -7,7 +7,7 @@ import useWindowDimensions from '../Misc/useWindowDimensions'
 
 let facebookPage = {
 	corangamite: "https://www.facebook.com/ahelpinghandcorangamite/",
-	geelong: "https://www.facebook.com/ahelpinghandgeelong/",
+	colac: "https://www.facebook.com/ahelpinghandcolac/",
 	warrnambool: "https://www.facebook.com/ahelpinghandwarrnambool/"
 }
 

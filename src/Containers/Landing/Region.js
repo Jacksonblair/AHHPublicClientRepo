@@ -12,7 +12,7 @@ import landingImage1 from '../../Assets/Images/landing1.jpg'
 import landingImage2 from '../../Assets/Images/landing2.jpg'
 import landingImage3 from '../../Assets/Images/landing3.jpg'
 import corangamiteIcon from '../../Assets/Images/corangamite.jpg'
-import geelongIcon from '../../Assets/Images/geelong.jpg'
+import colacIcon from '../../Assets/Images/geelong.jpg'
 import warrnamboolIcon from '../../Assets/Images/warrnambool.jpg'
 
 let Region = props => {
@@ -81,10 +81,10 @@ let Region = props => {
 
 					<div className="display-flex align-items-center flex-column">
 						<Link 
-						to="/landing/geelong" 
-						style={{"backgroundImage":`url(${geelongIcon})`}} 
+						to="/landing/colac" 
+						style={{"backgroundImage":`url(${colacIcon})`}} 
 						className="region-button"/>
-						<h2 className="header-3"> Geelong </h2>
+						<h2 className="header-3"> Colac </h2>
 					</div>
 
 				</div>

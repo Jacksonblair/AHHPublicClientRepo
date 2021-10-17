@@ -194,12 +194,12 @@ let UpdateNeed = props => {
 						<label htmlFor="region"> Region/Suburb </label>
 						<select 
 						name="region" 
-						selected="geelong"
+						selected="colac"
 						value={values.region} 
 						className={errors.region && 'error-input'}
 						onBlur={handleBlur}
 						onChange={handleChange}>
-							<option value="geelong"> Geelong </option>
+							<option value="colac"> Colac </option>
 							<option value="warrnambool"> Warrnambool </option>
 							<option value="corangamite"> Corangamite Shire </option>
 						</select>

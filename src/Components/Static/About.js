@@ -67,26 +67,24 @@ function About(props) {
 				<br className="desktop-only"/>
 
 				<section className="ctr-6 medium display-flex flex-space-between">
-					<p>
-						<h2 className="header-3 blue text-left"> Values: </h2>
-						<ul className="text-left">
-							<li> 
-								Privacy
-							</li>
-							<li> 
-								Respect
-							</li>
-							<li> 
-								Dignity
-							</li>
-							<li> 
-								Community
-							</li>
-							<li> 
-								Inclusion
-							</li>
-						</ul>
-					</p>
+					<h2 className="header-3 blue text-left"> Values: </h2>
+					<ul className="text-left">
+						<li> 
+							Privacy
+						</li>
+						<li> 
+							Respect
+						</li>
+						<li> 
+							Dignity
+						</li>
+						<li> 
+							Community
+						</li>
+						<li> 
+							Inclusion
+						</li>
+					</ul>
 					<div className="flex">
 						<img style={{"width":"100%", "maxWidth":"200px"}} src={logoWithValues}/>
 					</div>
@@ -106,17 +104,26 @@ function About(props) {
 
 				<section id="began" className="ctr-6 medium text-left">
 					<h2 className="header-3 blue"> How A Helping Hand began </h2>
-						<p>
-							<br/>
-							Local Camperdown mother of three Elise McKinnon is the founder of A Helping Hand.
-							<br/><br/>Elise has assisted many charities and community groups as both an Ambassador for the Ovarian Cancer Research Foundation and Treasure Chest Charities as well as organising special events as a committee member with Lillian Frank’s Royal Children’s Hospital Fundraising Committee. She has donated her time to work with the Reach Foundation, Starlight Children’s Foundation, as well as creating and producing her own television program for the Nine Network Australia titled ‘Australian Success’.
-							<br/><br/><div className="header-3 italic text-center">"It's about basic human care"</div>
-							<br/>Elise started working on developing a way to connect the community to the needs of our most vulnerable many years ago after reading too many stories of children as young as five who were placed into residential care with drug users and prostitutes. What hope did they have to overcome these influences? Knowing that so many people would love to be able to support these children if only they knew how, Elise spent time with various community and health organisations to establish where the gap lay in assisting vulnerable families and children in our communities, thus the idea for A Helping Hand was born.
-							<br/><br/><br/><div className="italic bold quote">"Every solution to disadvantage involved the local community caring for its own. The feedback from every organisation I spent time with was that establishing a sense of belonging within one’s own community was essential to building resilience in young people and that one positive role model or interaction has the capacity to change a person’s life. It is not a matter of the government or welfare organisations solving society’s problem alone; it is about basic human care. If each of us was able to do something small to help each other and particularly to help those most vulnerable in our local communities, we would all prosper and grow.”
-							</div><br/><div className="italic bold">- Elise McKinnon </div>
-							<br/><br/>Thank you to the Deakin University FreelancingHUB who has been an integral part of the development of A Helping Hand. Without their enormous commitment, enthusiasm and incredible talent, this platform would not have been possible.
-							<br/><br/><div className="bold"> Thank you! Together we are creating something that has the potential to change many lives. </div>
-						</p>
+					<p>
+						<br/>
+						Local Camperdown mother of three Elise McKinnon is the founder of A Helping Hand.
+						<br/><br/>Elise has assisted many charities and community groups as both an Ambassador for the Ovarian Cancer Research Foundation and Treasure Chest Charities as well as organising special events as a committee member with Lillian Frank’s Royal Children’s Hospital Fundraising Committee. She has donated her time to work with the Reach Foundation, Starlight Children’s Foundation, as well as creating and producing her own television program for the Nine Network Australia titled ‘Australian Success’.
+						<br/><br/><i className="header-3 text-center">"It's about basic human care"</i>
+						<br/>Elise started working on developing a way to connect the community to the needs of our most vulnerable many years ago after reading too many stories of children as young as five who were placed into residential care with drug users and prostitutes. What hope did they have to overcome these influences? Knowing that so many people would love to be able to support these children if only they knew how, Elise spent time with various community and health organisations to establish where the gap lay in assisting vulnerable families and children in our communities, thus the idea for A Helping Hand was born.
+						<br/><br/><br/>
+
+						<strong className="italic quote">
+							"Every solution to disadvantage involved the local community caring for its own. The feedback from every organisation I spent time with was that establishing a sense of belonging within one’s own community was essential to building resilience in young people and that one positive role model or interaction has the capacity to change a person’s life. It is not a matter of the government or welfare organisations solving society’s problem alone; it is about basic human care. If each of us was able to do something small to help each other and particularly to help those most vulnerable in our local communities, we would all prosper and grow.”
+						</strong>
+
+						<br/><strong className="italic">- Elise McKinnon </strong>
+
+						<br/><br/>
+						Thank you to the Deakin University FreelancingHUB who has been an integral part of the development of A Helping Hand. Without their enormous commitment, enthusiasm and incredible talent, this platform would not have been possible.
+						<br/><br/>
+
+						<strong> Thank you! Together we are creating something that has the potential to change many lives. </strong>
+					</p>
 				</section>
 				<br className="desktop-only"/>
 
@@ -124,30 +131,34 @@ function About(props) {
 					<h2 className="header-3 blue"> How the website works </h2>
 					<p>
 						<br/>	
-						<div className="blue inline bold">ahelpinghand.com.au&nbsp;</div> 
+						<strong className="blue inline">ahelpinghand.com.au&nbsp;</strong> 
 						works by connecting individuals and businesses to those in need. It is about meeting needs NOT about providing money.
-				
-						<ul className="text-left" style={{"paddingInlineStart":"20px"}}>
-							<li>Local welfare agencies, schools and community organisations list the needs of families and children in their care.
-							</li><li>People and businesses can then login to ahelpinghand.com.au and choose their local community page.
-							</li><li>Here they can see a list of skills, expertise or donated items that are needed by local individuals and families.
-							</li><li>They can then choose to do one of 3 things: </li>
-							<ul style={{"paddingInlineStart":"20px"}}>
-								<li>Fulfil a need whereby they liaise directly with the Agency who listed the need;
-								</li><li>Share the need with their social networks and friends who may be able to help or;
-								</li><li>Offer to donate their skills, products, opportunities or time. Only Agencies can see the donated items and accept a donation on behalf of someone in their care.
-								</li>
-							</ul>
-						</ul>
-						<br />
-						<div className="display-flex justify-center">
-							<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qz6enzREk4I" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-						</div>
-						<br />
-						<div className="text-left bold italic">*Any payments for goods or services are made direct to the Agency to cover the cost of the items.  
-						</div><br/><div className="text-left bold italic">*Agencies agree not to take any funds for administration fees and that they are responsible for the safety of their clients and all police and Working With Children Checks.
-						</div>
 					</p>
+				
+					<ul className="text-left" style={{"paddingInlineStart":"20px"}}>
+						<li>Local welfare agencies, schools and community organisations list the needs of families and children in their care.
+						</li><li>People and businesses can then login to ahelpinghand.com.au and choose their local community page.
+						</li><li>Here they can see a list of skills, expertise or donated items that are needed by local individuals and families.
+						</li><li>They can then choose to do one of 3 things: </li>
+						<ul style={{"paddingInlineStart":"20px"}}>
+							<li>Fulfil a need whereby they liaise directly with the Agency who listed the need;
+							</li><li>Share the need with their social networks and friends who may be able to help or;
+							</li><li>Offer to donate their skills, products, opportunities or time. Only Agencies can see the donated items and accept a donation on behalf of someone in their care.
+							</li>
+						</ul>
+					</ul>
+
+					<br />
+
+					<div className="display-flex justify-center">
+						<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qz6enzREk4I" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+					</div>
+
+					<br />
+
+					<div className="text-left bold italic">*Any payments for goods or services are made direct to the Agency to cover the cost of the items.  
+					</div><br/><div className="text-left bold italic">*Agencies agree not to take any funds for administration fees and that they are responsible for the safety of their clients and all police and Working With Children Checks.
+					</div>
 				</section>
 			</article>
 		</div>

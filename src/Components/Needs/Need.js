@@ -26,7 +26,7 @@ const Need = props => {
 	let regions = {
 		"corangamite": "Corangamite Shire",
 		"warrnambool": "Warrnambool",
-		"geelong": "Geelong"
+		"colac": "Colac"
 	}
 
 	/*

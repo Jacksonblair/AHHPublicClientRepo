@@ -20,8 +20,8 @@ const initialState = {
 	jwtPayload: null,
 	userId: null,
 	hasInit: false,
-	corangamiteFeed: [],
-	geelongFeed: [],
+	corangamiteFeeds: [],
+	colacFeed: [],
 	warrnamboolFeed: []
 }
 
@@ -57,10 +57,10 @@ let appReducer = (state = initialState, action) => {
 			}
 		case actions.UPDATE_FACEBOOK_FEED:
 			switch(action.payload.region) {
-				case "geelong":
+				case "colac":
 					return {
 						...state,
-						geelongFeed: action.payload.feed
+						colacFeed: action.payload.feed
 					}
 				case "corangamite":
 					return {

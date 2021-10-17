@@ -11,10 +11,11 @@ import useIsMounted from 'ismounted'
 
 import majorNeedsBg from '../../Assets/Images/majorNeedsBg.jpg'
 import logoWithValues from '../../Assets/Images/logoWithValue.png';
-import geelongBg from '../../Assets/Images/GeelongBg.jpg'
+import bubbleImage from '../../Assets/Images/bubble.png'
+
+import colacBg from '../../Assets/Images/GeelongBg.jpg'
 import warrnamboolBg from '../../Assets/Images/WarrnamboolBg.jpg'
 import corangamiteBg from '../../Assets/Images/CorangamiteBg.jpg'
-import bubbleImage from '../../Assets/Images/bubble.png'
 
 import {
 	Link,
@@ -24,19 +25,19 @@ import {
 
 let regions = {
 	corangamite: "Corangamite Shire",
-	geelong: "Geelong",
+	colac: "Colac",
 	warrnambool: "Warrnambool"
 }
 
 let facebookPage = {
 	corangamite: "https://www.facebook.com/ahelpinghandcorangamite/",
-	geelong: "https://www.facebook.com/ahelpinghandgeelong/",
+	colac: "https://www.facebook.com/ahelpinghandcolac/",
 	warrnambool: "https://www.facebook.com/ahelpinghandwarrnambool/"
 }
 
 let bgImages = {
 	warrnambool: warrnamboolBg,
-	geelong: geelongBg,
+	colac: colacBg,
 	corangamite: corangamiteBg
 }
 
@@ -81,7 +82,7 @@ function Landing(props) {
 
 	react.useEffect(async () => {
 		// Redirect if region invalid?
-		if (!["geelong", "corangamite", "warrnambool"].includes(region)) {
+		if (!["colac", "corangamite", "warrnambool"].includes(region)) {
 			history.push('/region')
 			return			
 		}	
@@ -198,7 +199,7 @@ function Landing(props) {
 							</div>
 							<br/>
 		 					{ width >= 500 && <>
-								{ !!props.facebookFeed[region].length && 
+								{ !!props.facebookFeed[region] && 
 									<>
 									{!!props.facebookFeed[region][0] && 
 										<>
@@ -239,7 +240,7 @@ const mapStateToProps = (state) => {
 		doesSessionExist: state.doesSessionExist,
 		jwtPayload: state.jwtPayload,
 		userId: state.userId,
-		facebookFeed: { geelong: state.geelongFeed, warrnambool: state.warrnamboolFeed, corangamite: state.corangamiteFeed }
+		facebookFeed: { colac: state.colacFeed, warrnambool: state.warrnamboolFeed, corangamite: state.corangamiteFeed }
 	}
 }
 

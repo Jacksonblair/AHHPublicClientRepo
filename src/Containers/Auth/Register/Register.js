@@ -66,7 +66,7 @@ function Register() {
 			<br/>
 			<div className="bold ctr-1 invis"> 
 				Only schools, healthcare or commmunity organisations in the Corangamite 
-				Shire, Geelong and Warrnambool in Victoria can register. 
+				Shire, Colac and Warrnambool in Victoria can register. 
 				We hope to reach more communities very soon.
 			</div>
 			<br/>
