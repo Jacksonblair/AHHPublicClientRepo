@@ -12,7 +12,7 @@ import landingImage1 from '../../Assets/Images/landing1.jpg'
 import landingImage2 from '../../Assets/Images/landing2.jpg'
 import landingImage3 from '../../Assets/Images/landing3.jpg'
 import corangamiteIcon from '../../Assets/Images/corangamite.jpg'
-import colacIcon from '../../Assets/Images/geelong.jpg'
+import colacIcon from '../../Assets/Images/colac.jpg'
 import warrnamboolIcon from '../../Assets/Images/warrnambool.jpg'
 
 let Region = props => {

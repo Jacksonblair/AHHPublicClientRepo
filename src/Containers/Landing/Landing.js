@@ -13,7 +13,7 @@ import majorNeedsBg from '../../Assets/Images/majorNeedsBg.jpg'
 import logoWithValues from '../../Assets/Images/logoWithValue.png';
 import bubbleImage from '../../Assets/Images/bubble.png'
 
-import colacBg from '../../Assets/Images/GeelongBg.jpg'
+import colacBg from '../../Assets/Images/ColacBg.jpg'
 import warrnamboolBg from '../../Assets/Images/WarrnamboolBg.jpg'
 import corangamiteBg from '../../Assets/Images/CorangamiteBg.jpg'
 
