@@ -13,7 +13,7 @@ export default function validateOrganizationProfileUpdate(values) {
 	let errors = {}
 
 	if (!values.organization_name) {
-		errors.organization_name = "Organization name required"
+		errors.organization_name = "Organisation name required"
 	}
 
 	// Contact name 

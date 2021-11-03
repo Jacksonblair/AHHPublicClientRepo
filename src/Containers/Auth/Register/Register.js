@@ -117,7 +117,7 @@ function Register() {
 					onBlur={handleBlur}
 					className={errors.organization_name && 'error-input'}
 					placeholder="Your organisation name"/>
-					{errors.organisation_name && <p className="error-text">{errors.organization_name}</p> }
+					{errors.organization_name && <p className="error-text">{errors.organization_name}</p> }
 
 					<label> About your organisation </label>
 					<textarea
@@ -141,7 +141,7 @@ function Register() {
 
 					<label> Apartment/Unit/Building (optional) </label>
 					<input
-					name="org_street_address_secondary"
+					name="apt_suite_bldg"
 					value={values.apt_suite_bldg}
 					onChange={handleChange}
 					onBlur={handleBlur}

@@ -2,22 +2,22 @@ import validateEmail from './validateEmail.js'
 
 export default function validateOrganization(values) {
 
-// let INITIAL_STATE = {
-// 	contact_name: "",
-// 	contact_number: "",
-// 	organization_name: "",
-// 	about: "",
-// 	address: "",
-// 	apt_suite_bldg: "",
-// 	city: "",
-// 	state: "",
-// 	postcode: "",
-// 	country: "",
-// 	tos: false,
-// 	email: "",
-// 	password: "",
-// 	abn: ""
-// }
+	// let INITIAL_STATE = {
+	// 	contact_name: "",
+	// 	contact_number: "",
+	// 	organization_name: "",
+	// 	about: "",
+	// 	address: "",
+	// 	apt_suite_bldg: "",
+	// 	city: "",
+	// 	state: "",
+	// 	postcode: "",
+	// 	country: "",
+	// 	tos: false,
+	// 	email: "",
+	// 	password: "",
+	// 	abn: ""
+	// }
 
 	let errors = validateEmail(values)
 
@@ -30,12 +30,16 @@ export default function validateOrganization(values) {
 		errors.contact_name = "Contact name required"
 	}
 
+	if (!values.about) {
+		errors.about = "Details required"
+	}
+
 	if (!values.contact_number) {
 		errors.contact_number = "Contact number required"
 	}
 
 	if (!values.organization_name) {
-		errors.organization_name = "Organization name required"
+		errors.organization_name = "Organisation name required"
 	}
 
 	if (!values.address) {
